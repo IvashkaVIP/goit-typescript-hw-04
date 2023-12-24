@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef, ReactNode } from 'react';
 
 // Опишіть Props
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   onContentEndVisible: () => void; 
 }
 
